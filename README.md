@@ -23,13 +23,13 @@ A powerful and dynamic FlatList wrapper for React Native that provides enhanced 
 Install the library via npm:
 
 ```sh
-npm install react-native-dynamic-library
+npm install react-native-dynamic-flatlist
 ```
 
 Or with Yarn:
 
 ```sh
-yarn add react-native-dynamic-library
+yarn add react-native-dynamic-flatlist
 ```
 
 ## Usage
@@ -39,7 +39,7 @@ yarn add react-native-dynamic-library
 ```jsx
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import CustomFlatList from "react-native-dynamic-library";
+import CustomFlatList from "react-native-dynamic-flatlist";
 
 const App = () => {
   const data = [...Array(50).keys()].map((i) => ({ id: i, name: `Item ${i}` }));
