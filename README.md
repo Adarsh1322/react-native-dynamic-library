@@ -1,6 +1,6 @@
-# React Native FlatList Library
+# React Native Dynamic Flatlist Library
 
-A powerful and dynamic FlatList wrapper for React Native that provides enhanced functionality out of the box. This library simplifies creating complex lists with features like pagination, sorting, grid layouts, search, and sticky headers.
+A powerful and dynamic FlatList wrapper for React Native that provides enhanced functionality out of the box. This library simplifies creating complex lists with features like pagination, sorting, grid layouts, search.
 
 ## Features
 
@@ -17,20 +17,19 @@ A powerful and dynamic FlatList wrapper for React Native that provides enhanced 
 - **Grid Layout**: Support for dynamic number of columns in a grid layout.
 - **Search Bar**: Include a TextInput for search functionality at the top of the list.
 - **Search with Pagination**: Filter and paginate data simultaneously.
-- **Sticky Header Layout**: Sticky headers for lists with categorized data or a fixed header section.
 
 ## Installation
 
 Install the library via npm:
 
 ```sh
-npm install react-native-flatlist-library
+npm install react-native-dynamic-library
 ```
 
 Or with Yarn:
 
 ```sh
-yarn add react-native-flatlist-library
+yarn add react-native-dynamic-library
 ```
 
 ## Usage
@@ -40,7 +39,7 @@ yarn add react-native-flatlist-library
 ```jsx
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
-import CustomFlatList from "react-native-flatlist-library";
+import CustomFlatList from "react-native-dynamic-library";
 
 const App = () => {
   const data = [...Array(50).keys()].map((i) => ({ id: i, name: `Item ${i}` }));
@@ -153,4 +152,17 @@ export default App;
 
 This library is licensed under the MIT License.
 
+
+## 🔍 **Keywords**
+
+- `react-native`
+- `scrollView`
+- `view`
+- `loader`
+- `pagination`
+- `sorting`
+- `horizontal`
+- `vertical`
+- `grid`
+- `search`
 

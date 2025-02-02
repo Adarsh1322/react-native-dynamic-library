@@ -1,16 +1,33 @@
 {
-  "name": "react-native-dynamic-flatlist",
-  "version": "1.0.0",
+  "name": "react-native-flexible-screencontainer",
+  "version": "1.0.1",
+  "description": "A customizable UI library for React Native that includes a dynamic status bar, loaders, shimmer effects, scrollable and non-scrollable views, an empty state handler, and a bottom sheet implementation.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm install react-native-flexible-screencontainer"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Adarsh1322/react-native-flexible-screencontainer.git"
+  },
+  "keywords": [
+    "react-native",
+    "scrollView",
+    "view",
+    "loader",
+    "shimmer",
+    "status-bar",
+    "bottomsheet",
+    "npm"
+  ],
+  "author": "Adarsh Pandey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Adarsh1322/react-native-flexible-screencontainer/issues"
+  },
+  "homepage": "https://github.com/Adarsh1322/react-native-flexible-screencontainer#readme",
   "peerDependencies": {
-    "react": "^18.0.0",
-    "react-native": "^0.66.0"
+    "react": ">=18.0.0",
+    "react-native": ">=0.66.0"
   }
 }
